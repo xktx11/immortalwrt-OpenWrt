@@ -1,4 +1,4 @@
-name: master
+name: hanwckf
 
 on:
   workflow_dispatch:
@@ -7,8 +7,8 @@ on:
         description: '手动触发一次编译'
 
 env:
-  REPO_URL: https://github.com/immortalwrt/immortalwrt
-  REPO_BRANCH: master
+  REPO_URL: https://github.com/hanwckf/immortalwrt-mt798x
+  REPO_BRANCH: openwrt-21.02
   CONFIG_FILE: 5.15.config
   DIY_P1_SH: diy/diy-5.15.sh
   DIY_P2_SH: diy/diy02.sh
